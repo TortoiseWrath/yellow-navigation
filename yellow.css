@@ -1,0 +1,32 @@
+@charset "utf-8";
+body,td,th {
+	color: #000000;
+}
+#apDiv1 {
+	left:0px;
+	top:0px;
+	width:175px;
+	height:100%;
+	z-index:1;
+	background-image: url(semi.png);
+	position: fixed;
+	float: left;
+}
+body {
+	margin-left: 175px;
+}
+div#header {
+	left:175px;
+	top:0px;
+	height:150px;
+	z-index:1;
+	text-align: right;
+}
+div#content {
+	left:175px;
+	top:150px;
+	z-index:1;
+	position: absolute;
+	float: right;
+	text-align: justify;
+}
